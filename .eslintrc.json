@@ -7,7 +7,7 @@
     "es6": true
   },
   "globals": {
-    "fail":true
+    "fail":false
   },
   "extends": "eslint:recommended",
   "parserOptions": {

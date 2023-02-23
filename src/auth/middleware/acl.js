@@ -1,7 +1,6 @@
 'use strict';
 
 module.exports = (capability) => {
-
   return (req, res, next) => {
 
     try {
@@ -15,6 +14,6 @@ module.exports = (capability) => {
       next('Invalid Login');
     }
 
-  }
+  };
 
-}
+};
